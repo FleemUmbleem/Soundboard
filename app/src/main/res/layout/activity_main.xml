@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="677dp"
+        android:background="@drawable/nintardo"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <!--TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" /-->
+
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="189dp">
+
+            <Button
+                android:id="@+id/btnSpaz"
+                android:layout_width="182dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/you_spaz"
+                android:alpha="0.7"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnLol1"
+                android:layout_width="182dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/lol1"
+                android:alpha="0.7"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="189dp">
+
+            <Button
+                android:id="@+id/btnLel"
+                android:layout_width="182dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/lel"
+                android:alpha="0.7"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnLol2"
+                android:layout_width="182dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/lol2"
+                android:alpha="0.7"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="189dp">
+
+            <Button
+                android:id="@+id/btnYolo"
+                android:layout_width="182dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/yolo"
+                android:alpha="0.7"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnLol3"
+                android:layout_width="182dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/lol3"
+                android:alpha="0.7"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="189dp">
+
+            <Button
+                android:id="@+id/btnNub"
+                android:layout_width="182dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/nub"
+                android:alpha="0.7"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnLol5"
+                android:layout_width="182dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/lol4"
+                android:alpha="0.7"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
